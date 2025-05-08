@@ -1,0 +1,207 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #000602;
+    text-align: justify;
+ 
+
+
+}
+p{
+	
+	padding-right: 5px;
+	padding-bottom: 5px;
+	margin: 10px 0;
+	overflow: auto;
+}
+/* Encabezado */
+header {
+    background-color:#4fcd19;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+#logo{
+    margin-top: 5px;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+/* Secciones principales */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1, h2 {
+    color:#05141d;
+}
+
+/* Listas 
+ul {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}*/
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background:#4fcd19;
+    color: white;
+    margin-top: 2rem;
+}
+
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  nav ul li {
+    margin-right: 20px;
+  }
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  section {
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+  }
+#Historia {
+    background-color: #f4f4f4;
+  }
+#Springframework {
+    background-color: #eaeaea;
+  }
+#Funcionamiento{
+    background-color: #ddd;
+  }
+#Ejemplos {
+    background-color: #ccc;
+  }
+
+textarea {
+      resize: both; /* Allows both horizontal and vertical resizing */
+      width: 300px;
+      height: 50px;
+  }
+  #ejemplo{
+    width: 700px;
+    height: 150px;
+    text-align:left;
+  }
+#bienFo{
+    resize: both; /* Allows both horizontal and vertical resizing */
+    width: 800px;
+    height: 150px;
+    text-align:left;
+}     
+#bienFor{
+      resize: both; /* Allows both horizontal and vertical resizing */
+      width: 600px;
+      height: 150px;
+      text-align:left;
+      
+  }
+#bien{
+      resize: both; /* Allows both horizontal and vertical resizing */
+      width: 600px;
+      height: 300px;
+      text-align:left;
+}  
+#menu{
+    resize: both; /* Allows both horizontal and vertical resizing */
+    width: 600px;
+    height: 250px;
+}
+#EJEMPLO {
+  resize: both; /* Allows both horizontal and vertical resizing */
+      width: 390px;
+      height: 200px;
+
+}
+#modelo{
+       
+       height: auto;
+       box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+       display: flex;
+       margin-right: 20px;
+       margin-bottom: 10px; 
+       text-align: center;
+       width: 100px;
+      height: 100px;
+      float:left;
+}
+
+#log{
+    display: inline-block;   
+    vertical-align: top;
+    float: none;  
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    text-align: center;
+}
+
+#bi-arrow-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none; /* Oculto por defecto */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 10px; 
+  
+ 
+   
+}
+
+#bi-arrow-up:hover {
+    background-color: #555;
+}
+@media (max-width: 768px){
+  #logo, #brajax,#pagajax,  #log{
+    flex-direction: column;
+
+  }
+}
